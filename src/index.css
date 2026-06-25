@@ -9,4 +9,5 @@
 
 body {
   background-color: var(--body-color);
+  padding-inline: 50px;
 }
