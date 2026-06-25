@@ -1,26 +1,33 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./navbar.css";
 
 export default function Navbar() {
   return (
-    <div>
-      <ul>
-        <li>
-          <Link to="/">Home</Link>
-        </li>
-        <li>
-          <Link to="/transaction-input">Input Transaction</Link>
-        </li>
-        <li>
-          <Link to="/history-view">View History</Link>
-        </li>
-        <li>
-          <Link to="/configuration">Configuration</Link>
-        </li>
-        <li>
-          <Link to="/account">Account</Link>
-        </li>
-      </ul>
-    </div>
+    <section className="navbar">
+      <div className="content">
+        <div className="title">PREDICTA</div>
+        <ul className="navigation">
+          <li>
+            <Link to="/">H</Link>
+          </li>
+          <li>
+            <Link to="/history-view">VH</Link>
+          </li>
+          <li>
+            <Link to="/transaction-input" className="middle-link">
+              IT
+            </Link>
+          </li>
+          <li>
+            <Link to="/configuration">C</Link>
+          </li>
+          <li>
+            <Link to="/account">Acc</Link>
+          </li>
+        </ul>
+        <div className="notification">NF</div>
+      </div>
+    </section>
   );
 }
