@@ -1,11 +1,11 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
-import Account from "./Pages/Account";
-import Configuration from "./Pages/Configuration";
-import Home from "./Pages/Home";
-import TransactionInput from "./Pages/TransactionInput";
-import HistoryView from "./Pages/HistoryView";
+import Account from "./Pages/account/Account";
+import Configuration from "./Pages/configuration/Configuration";
+import Home from "./Pages/home/Home";
+import TransactionInput from "./Pages/transcription-input/TransactionInput";
+import HistoryView from "./Pages/history-view/HistoryView";
 
 import Navbar from "./Navbar/Navbar";
 
